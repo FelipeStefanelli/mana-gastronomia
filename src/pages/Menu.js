@@ -21,15 +21,15 @@ function Menu(props) {
                     <p>INSTAGRAM</p>
                     <span className='social-image instagram'></span>
                 </a>
-                <a href="https://www.facebook.com/ManaporAnaBombonatto" className='facebook'>
+                <a href="https://www.facebook.com/ManaporAnaBombonatto" target="_blank" rel="noopener noreferrer" className='facebook'>
                     <p>FACEBOOK</p>
                     <span className='social-image facebook'></span>
                 </a>
-                <a href="https://anabombonatto.goomer.app/menu" className='goomer'>
+                <a href="https://anabombonatto.goomer.app/menu" target="_blank" rel="noopener noreferrer" className='goomer'>
                     <p>GOOMER</p>
                     <span className='social-image goomer'></span>
                 </a>
-                <a href="https://www.facebook.com/ManaporAnaBombonatto" className='b2b'>
+                <a href="https://www.facebook.com/ManaporAnaBombonatto" target="_blank" rel="noopener noreferrer" className='b2b'>
                     <p>VAREJO / B2B</p>
                     <span className='social-image b2b'></span>
                 </a>
