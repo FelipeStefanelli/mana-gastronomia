@@ -30,7 +30,7 @@ function Menu(props) {
                     <span className='social-image goomer'></span>
                 </a>
                 <a href="https://www.facebook.com/ManaporAnaBombonatto" className='b2b'>
-                    <p>VAREJO</p>
+                    <p>VAREJO / B2B</p>
                     <span className='social-image b2b'></span>
                 </a>
             </div>
