@@ -15,23 +15,33 @@ function Menu(props) {
             <div className='menu-social'>
                 <a className='site' onClick={() => props.navigate('/home')}>
                     <p>SITE</p>
-                    <span className='social-image site'></span>
+                    <span className='social-image-container'>
+                        <span className='social-image site'></span>
+                    </span>
                 </a>
                 <a href="https://www.instagram.com/managastronomiasaudavel/?next=%2Fmanagastronomiasaudavel%2F" className='instagram' target="_blank" rel="noopener noreferrer">
                     <p>INSTAGRAM</p>
-                    <span className='social-image instagram'></span>
+                    <span className='social-image-container'>
+                        <span className='social-image instagram'></span>
+                    </span>
                 </a>
                 <a href="https://www.facebook.com/ManaporAnaBombonatto" target="_blank" rel="noopener noreferrer" className='facebook'>
                     <p>FACEBOOK</p>
-                    <span className='social-image facebook'></span>
-                </a>
-                <a href="https://anabombonatto.goomer.app/menu" target="_blank" rel="noopener noreferrer" className='goomer'>
-                    <p>GOOMER</p>
-                    <span className='social-image goomer'></span>
+                    <span className='social-image-container'>
+                        <span className='social-image facebook'></span>
+                    </span>
                 </a>
                 <a href="https://www.facebook.com/ManaporAnaBombonatto" target="_blank" rel="noopener noreferrer" className='b2b'>
                     <p>VAREJO / B2B</p>
-                    <span className='social-image b2b'></span>
+                    <span className='social-image-container'>
+                        <span className='social-image b2b'></span>
+                    </span>
+                </a>
+                <a href="https://anabombonatto.goomer.app/menu" target="_blank" rel="noopener noreferrer" className='goomer'>
+                    <p>GOOMER</p>
+                    <span className='social-image-container'>
+                        <span className='social-image goomer'></span>
+                    </span>
                 </a>
             </div>
         </motion.div>

@@ -716,10 +716,10 @@
 .menu-social>a {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   border-radius: 32px;
   width: 450px;
-  padding: 12px 16px;
+  padding: 8px 32px;
   margin-bottom: 16px;
   cursor: pointer;
   border: 2px solid #fff;
@@ -757,25 +757,6 @@
   // }
 }
 
-.menu-social>a:hover {
-  animation: transform-scale .1s ease;
-  transform: scale(1.03);
-}
-
-@keyframes transform-scale {
-  0% {
-    transform: scale(1);
-  }
-
-  90% {
-    transform: scale(1.05);
-  }
-
-  100% {
-    transform: scale(1.03);
-  }
-}
-
 // .menu-social>div:hover {
 //   background-position: 50% 50%;
 
@@ -810,37 +791,73 @@
 //   }
 // }
 
+.menu-social>a:hover {
+  animation: transform-scale .1s ease;
+  transform: scale(1.03);
+}
+
+@keyframes transform-scale {
+  0% {
+    transform: scale(1);
+  }
+
+  90% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1.03);
+  }
+}
+
+
 .menu-social>a>p {
   margin: 0;
-  width: 200px;
+  width: 350px;
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
   font-weight: 600;
   color: #000;
 }
 
+.social-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% - 296px);
+}
+
 .social-image {
-  width: 36px;
-  height: 36px;
+  display: block;
 
   &.site {
-    background: url(./assets/menu-pc.svg) no-repeat center center / contain;
+    width: 50px;
+    height: 36px;
+    background: url(./assets/menu-pc.png) no-repeat center center / contain;
   }
 
   &.instagram {
+    width: 36px;
+    height: 36px;
     background: url(./assets/menu-instagram.png) no-repeat center center / contain;
   }
 
   &.goomer {
-    background: url(./assets/menu-goomer.svg) no-repeat center center / contain;
+    width: 80px;
+    height: 36px;
+    background: url(./assets/menu-goomer.png) no-repeat center center / contain;
   }
 
   &.facebook {
-    background: url(./assets/menu-facebook.svg) no-repeat center center / contain;
+    width: 36px;
+    height: 36px;
+    background: url(./assets/menu-facebook.png) no-repeat center center / contain;
   }
 
   &.b2b {
-    background: url(./assets/menu-b2b.svg) no-repeat center center / contain;
+    width: 36px;
+    height: 36px;
+    background: url(./assets/menu-b2b.png) no-repeat center center / contain;
   }
 }
 
@@ -866,6 +883,11 @@
 
   .menu-social>a>p {
     font-size: 18px;
+    width: 70%;
+  }
+
+  .social-image-container {
+    width: 30%;
   }
 
   .social-image {
