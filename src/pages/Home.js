@@ -278,7 +278,7 @@ function Home() {
                 </div>
               </div>
             </div>
-            {/* <div className='grid-image-container'>
+            <div className='grid-image-container'>
               <div className='grid-image-one food-9'>
                 <div className='grid-black-layer'>
                   <p></p>
@@ -297,7 +297,7 @@ function Home() {
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
