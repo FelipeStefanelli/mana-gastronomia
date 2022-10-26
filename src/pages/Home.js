@@ -258,6 +258,46 @@ function Home() {
                 </div>
               </div>
             </div>
+            <div className='grid-image-container'>
+              <div className='grid-image-one food-8'>
+                <div className='grid-black-layer'>
+                  <p></p>
+                  <p></p>
+                </div>
+              </div>
+              <div className='d-flex'>
+                <div className='grid-image-two food-18'>
+                  <div className='grid-black-layer'>
+                    <p></p>
+                  </div>
+                </div>
+                <div className='grid-image-three food-28'>
+                  <div className='grid-black-layer'>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* <div className='grid-image-container'>
+              <div className='grid-image-one food-9'>
+                <div className='grid-black-layer'>
+                  <p></p>
+                  <p></p>
+                </div>
+              </div>
+              <div className='d-flex'>
+                <div className='grid-image-two food-19'>
+                  <div className='grid-black-layer'>
+                    <p></p>
+                  </div>
+                </div>
+                <div className='grid-image-three food-29'>
+                  <div className='grid-black-layer'>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div> */}
           </div>
         </div>
       </div>
