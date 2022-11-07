@@ -40,7 +40,7 @@ function Menu(props) {
                     </span>
                 </a>
                 <a href={window.screen.width > 1023 ? whatsappLink : whatsappMobileLink} target="_blank" rel="noopener noreferrer" className='b2b'>
-                    <p>11 99877-3386 ana@anabombonatto.com.br</p>
+                    <p>VAREJO / B2B</p>
                     <span className='social-image-container'>
                         <span className='social-image b2b'></span>
                     </span>

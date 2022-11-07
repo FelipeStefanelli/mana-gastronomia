@@ -28,10 +28,21 @@ function App(props) {
             {/* <li><a className={location.pathname === '/cardapio' ? 'active' : ''} onClick={() => navigate('/cardapio')}>Cardápio</a></li> */}
             <li><p onClick={() => navigate('/cardapio')}>Mais</p></li>
             <li>
-              <img src={InstagramIcon} alt="instagram-link" width="22px" height="22px" />
+              <a href="https://www.instagram.com/managastronomiasaudavel/?next=%2Fmanagastronomiasaudavel%2F" className='instagram' target="_blank" rel="noopener noreferrer">
+                  <span className='instagram'></span>
+              </a>
             </li>
             <li>
-              <img src={LinkIcon} alt="goomer-link" width="20px" height="20px" /></li>
+              <a href="https://anabombonatto.goomer.app/menu" target="_blank" rel="noopener noreferrer" className='goomer'>
+                  <span className='goomer'></span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/ManaporAnaBombonatto" target="_blank" rel="noopener noreferrer" className='facebook'>
+                  <span className='facebook'></span>
+              </a>
+            </li>
+
           </ul>
         </header>
       }

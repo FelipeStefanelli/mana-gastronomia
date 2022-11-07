@@ -51,6 +51,25 @@
   //animation: header-links 0.1s alternate forwards;
 }
 
+.header-links li a {
+  padding: 0;
+  margin: 0;
+}
+
+.header-links li a span {
+  display: block;
+  width: 22px;
+  height: 22px;
+
+  &.instagram {
+    background: url(./assets/instagram-icon.png) no-repeat center center / contain;
+  }
+
+  &.goomer {
+    background: url(./assets/link-icon.png) no-repeat center center / contain;
+  }
+}
+
 .header-links li p {
   text-decoration: none;
   color: black;
@@ -308,7 +327,7 @@
 
 .image-grid-section {
   display: grid;
-  grid-template-columns: 610px 610px 610px 610px 610px 610px 610px 610px;
+  grid-template-columns: 610px 610px 610px 610px 610px 610px 610px 610px 610px;
   grid-template-rows: auto;
   overflow-x: hidden;
   font-family: 'Oswald', sans-serif;
@@ -447,9 +466,11 @@
   &.food-7 {
     background: url('./assets/Escodidinho de frango.jpg') no-repeat center center / cover;
   }
+
   &.food-8 {
     background: url('./assets/Galinhada.jpg') no-repeat center center / cover;
   }
+
   &.food-9 {
     background: url('./assets/capa p vege 2.jpg') no-repeat center center / cover;
   }
@@ -633,7 +654,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .nutri-info-container {
     width: 90%;
   }
