@@ -99,7 +99,7 @@ function Home() {
             <div className='intro-content col-lg-6 col-md-9 col-sm-12'>
               <p className='col-lg-12 col-md-12 col-sm-12'>Mana</p>
               <p className='col-lg-10 col-md-10 col-sm-12'>Comidas congeladas saudáveis. Já imaginou seus pratos favoritos saudáveis? Transformamos sua imaginação em realidade! Porque você merece comida de verdade.</p>
-              <p className='col-lg-10 col-md-10 col-sm-12'>Acreditamos que a gastronomia saudável pode ser acessível a todos. Aceitamos todos os Cartões, Ticket Alelo, Sodexo e Ben Refeição.</p>
+              <p className='col-lg-10 col-md-10 col-sm-12'>Acreditamos que a gastronomia saudável pode ser acessível a todos. Aceitamos todos os Cartões, Ticket, Alelo, Sodexo e Ben Refeição.</p>
               <a href='https://anabombonatto.goomer.app/menu' target="_blank" rel="noopener noreferrer">Faça seu pedido</a>
             </div>
             <div className='col-lg-4 col-md-2 col-sm-0'></div>
